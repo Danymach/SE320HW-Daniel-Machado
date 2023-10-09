@@ -10,5 +10,7 @@ public class assertionQuestion {
 
     assert (0 <= input && input <= 10) : " the entered value is out of range";
 
+    scanner.close();
+
   }
 }
