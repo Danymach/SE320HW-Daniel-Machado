@@ -7,14 +7,14 @@ public class GenericArrayStack<E> {
   // Array is of Type Object, but we check the type of the input before we add it
   // here
   // Can this be static?
-  public Object array[];
+  private Object array[];
 
   // Top: Keeps up with the top of the stack - Value we will pop, and the latest
   // value pushed. Starts at -1 because when we push the first value, it will be
   // saved at index 0.
   private int top = -1;
-  public int sizeOfArray;
-  int DEFAULT_SIZE = 1;
+  private int sizeOfArray;
+  private int DEFAULT_SIZE = 1;
 
   // ----------- Constructors -----------//
 
@@ -36,9 +36,8 @@ public class GenericArrayStack<E> {
   // ----------- Methods -----------//
 
   public void push(E value) {
-    // Top + 1 because top starts at 0.
-    // This means I am checking after pushing the array will be full. If this is the
-    // case then I make the array bigger in advance.
+    // Top + 1 to check before the array gets full.
+    // If array is full I can increase it in advance
     System.out.println("Top before:" + top);
     top++;
     if ((top + 1) == sizeOfArray) {
@@ -89,5 +88,4 @@ public class GenericArrayStack<E> {
     return empty;
   }
 
-  
 }
