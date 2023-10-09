@@ -89,35 +89,5 @@ public class GenericArrayStack<E> {
     return empty;
   }
 
-  public static void main(String args[]) {
-    GenericArrayStack<Integer> hey = new GenericArrayStack<Integer>();
-    System.out.println("Size: " + hey.sizeOfArray);
-    System.out.println(hey.top);
-    System.out.println(hey.getSize());
-    System.out.println(hey.isEmpty());
-    Integer item0 = 0;
-    Integer item1 = 1;
-    Integer item2 = 2;
-    Integer item3 = 3;
-    Integer item4 = 4;
-    Integer item5 = 5;
-    hey.push(item0);
-    System.out.println(hey.isEmpty());
-    System.out.println(hey.getSize());
-    hey.push(item1);
-    hey.push(item2);
-    hey.push(item3);
-    hey.push(item4);
-    hey.push(item5);
-    System.out.println(hey.peek());
-    System.out.println(hey.pop());
-    System.out.println(hey.pop());
-    System.out.println(hey.pop());
-    System.out.println(hey.pop());
-    System.out.println(hey.pop());
-    System.out.println(hey.pop());
-    System.out.println(hey.getSize());
-    System.out.println(hey.isEmpty());
-    System.out.println("Size of Stack: " + hey.getSize());
-  }
+  
 }
