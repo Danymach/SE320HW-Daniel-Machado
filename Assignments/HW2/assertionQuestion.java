@@ -1,5 +1,4 @@
 package Assignments.HW2;
-
 import java.util.Scanner;
 
 public class assertionQuestion {
