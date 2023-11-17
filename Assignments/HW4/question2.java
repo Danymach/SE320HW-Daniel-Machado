@@ -50,8 +50,8 @@ public class question2 {
         for (String word : words) {
           set.add(word);
         }
-        br.close();
       }
+      br.close();
 
     } catch (FileNotFoundException e) {
       System.out.println("File not found");
