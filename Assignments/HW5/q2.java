@@ -1,11 +1,7 @@
-package HW5;
-
-import java.util.ArrayList;
-import java.util.List;
-
+package HW5
 
 /**
- * requires: The duplicate elements must be one right after the other
+ * requires: The duplicate elements must be one right after the other, and list must not be null or empty
  */
 public class q2 {
   // public static void removeDuplicates(List lst) {
