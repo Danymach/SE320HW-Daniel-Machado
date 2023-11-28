@@ -1,4 +1,4 @@
-package HW5
+package HW5;
 
 /**
  * requires: The duplicate elements must be one right after the other, and list must not be null or empty
