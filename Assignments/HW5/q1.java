@@ -10,7 +10,7 @@ public class q1 {
     Day today = new Day(now.getYear(), now.getMonthValue(), now.getDayOfMonth());
     Day bday = new Day(2002, 12, 23);
 
-    System.out.println("The number of days since I was born is: ");
+    System.out.println("The number of days since I was born are: ");
     System.out.println(today.daysFrom(bday));
 
   }
