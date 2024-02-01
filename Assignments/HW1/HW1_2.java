@@ -1,9 +1,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.Stack;
 
 
 public class HW1_2
- {
+ {   
   static ArrayList<Integer> array = new ArrayList<Integer>();
 
   public static void main(String args[])
